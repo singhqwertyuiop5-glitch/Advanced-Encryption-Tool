@@ -1,3 +1,11 @@
+COMPANY   : CODTECH IT SOLUTIONS
+NAME      : ADITYA SINGH
+INTERN ID : CT04DR3144
+DOMAIN    : CYBER SECURITY & ETHICAL HACKING
+DURATION  : 4 WEEKS
+MENTOR    : NEELA SANTOSH
+
+
 # Advanced Encryption Tool (AES-256)
 This project is a Python-based advanced encryption tool developed as part of an internship task.
 The application enables secure file encryption and decryption using the AES-256 encryption standard.
