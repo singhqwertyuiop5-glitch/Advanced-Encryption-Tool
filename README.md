@@ -52,3 +52,9 @@ advanced-encryption-tool/
 ├── requirements.txt
 └── sample.txt
 
+## output
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/917c51ec-b456-41e4-93eb-ea3115cf0bb0" />
+
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/1ee63894-b60f-4725-b84c-73daac8c2246" />
+
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/9537a3c3-0d67-4a9e-b712-c9f4b10a0aa6" />
