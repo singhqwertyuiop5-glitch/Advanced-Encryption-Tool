@@ -7,22 +7,42 @@ MENTOR    : NEELA SANTOSH
 
 
 # Advanced Encryption Tool (AES-256)
-This project is a Python-based advanced encryption tool developed as part of an internship task.
-The application enables secure file encryption and decryption using the AES-256 encryption standard.
-It is designed to demonstrate modern cryptographic practices and provide a simple, user-friendly interface for protecting sensitive data.
-The tool uses password-based key derivation to generate secure encryption keys and applies AES-256 encryption to ensure data confidentiality.
-It is intended strictly for educational and learning purposes.
+The Advanced Encryption Tool (AES-256) is a Python-based application developed as part of an internship task to demonstrate modern cryptographic practices. The project focuses on secure file encryption and decryption using the AES-256 (Advanced Encryption Standard) algorithm, one of the most widely trusted and industry-approved encryption standards.
+This tool is designed for educational and learning purposes only, helping users understand how encryption works in real-world applications, how sensitive data can be protected, and how cryptographic libraries are used responsibly in Python.
+
+## Project Overview
+In today’s digital world, protecting sensitive data is critical. Encryption ensures that even if data is accessed without authorization, it remains unreadable without the correct key. This project demonstrates how strong encryption can be implemented in a practical and user-friendly way.
+The application allows users to encrypt files using a password, transforming readable data into encrypted content that cannot be understood without proper decryption. It also supports secure decryption using the same password. The tool uses password-based key derivation, ensuring that encryption keys are generated securely rather than using raw or hardcoded keys.
+
+## How It Works
+-Password-Based Key Derivation
+The user provides a password.
+A secure key is derived from the password using cryptographic techniques.
+This prevents weak or predictable keys.
+-AES-256 Encryption
+The derived key is used with AES-256 to encrypt file contents.
+Encrypted data is saved securely to disk.
+-Decryption Process
+The same password is required to decrypt the file.
+If the password is incorrect, decryption fails, ensuring data confidentiality.
+-Command-Line Interface
+A simple, menu-driven interface guides the user through encryption and decryption steps.
+Designed for ease of use and clarity.
 
 ## Features
-- AES-256 file encryption
-- Secure password-based key derivation
-- File decryption support
-- User-friendly, menu-driven command-line interface
-- Robust and modular code structure
+Implements AES-256 file encryption
+Secure password-based key derivation
+Supports both file encryption and decryption
+Menu-driven and user-friendly command-line interface
+Modular and well-structured codebase
+Uses industry-standard cryptographic practices
+Ideal for beginners learning cybersecurity and cryptography
 
 ## Requirements
-- Python 3.7 or higher
-- cryptography library
+Python 3.7 or higher
+cryptography library
+Install dependencies using:
+pip install cryptography
 
 ## Project Structure
 advanced-encryption-tool/
